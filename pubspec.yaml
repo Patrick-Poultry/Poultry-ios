@@ -16,8 +16,9 @@ dependencies:
   google_fonts: ^6.2.1
   http: ^1.2.2
   shared_preferences: ^2.2.2
-  flutter_localizations:  # Add this line
-    sdk: flutter           # It comes from the Flutter SDK
+  flutter_localizations:
+    sdk: flutter
+  firebase_core: ^2.5.0 # Add this line to resolve the firebase_core package
 
 dev_dependencies:
   flutter_test:
